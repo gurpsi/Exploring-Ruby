@@ -39,21 +39,9 @@ inst5=FamilyMember.new('Echo','F','Unmarried',20,'No')		#Daughter
 
 #print and puts work almost similar by returning only the address (puts returns in new line)
 #whereas p returns the complete instance, i.e. address as well as value
-# PROGRAM 3 STARTS HERE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-# p inst_arr
-
 
 inst_arr = [inst1, inst2, inst3, inst4, inst5]
 inst_arr.each{|x| puts x.parent}
-
-# # # PROGRAM 4 STARTS HERE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-# inst_arr.each do |x| puts x.parent
-			  
-# 			  end
-
-# # Can i have a different function for attibute so on passing condition i can call the attribute function to display sex,status,age,children
 
 
 
